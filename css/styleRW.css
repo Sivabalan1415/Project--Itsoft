@@ -1,0 +1,335 @@
+@media (min-width:320px) and (max-width:767px) {
+    body {
+        width: 100%;
+        border: 1px solid rgb(255, 255, 255);
+    }
+
+    .custom-container {
+        width: 100%;
+        padding: 0px;
+    }
+
+    /* ..........head........... */
+    .custom-head {
+        background: url(../images/bg-fl.jpg) no-repeat -236px 0px / 207%;
+        height: 360px;
+
+        .navbar {
+            margin: 3% -16px;
+            padding: 0px;
+
+            .navbar-toggle i {
+                font-size: 20px;
+            }
+
+            .navbar-brand img {
+                width: 100px;
+            }
+
+            li {
+                display: inline-block;
+
+                a {
+                    font-size: 14px;
+                    padding: 6px;
+                    display: inline;
+                }
+            }
+        }
+    }
+
+    .jumbotron {
+        margin-top: 18%;
+
+        h1 {
+            font-size: 20px;
+            line-height: 28px !important;
+        }
+
+        p {
+            font-size: 15px;
+        }
+
+        button {
+            font-size: 10px !important;
+            padding: 10px 10px !important;
+            margin: 0px 5px !important;
+        }
+    }
+
+    /* ..........head end........... */
+    /* ..........body........... */
+    /* ..........custom-container-1........... */
+    .custom-container-1 {
+        .jumbotron {
+
+            margin-top: 1%;
+
+            h2 {
+                font-size: 20px;
+                padding: 0px 0px;
+                line-height: 25px;
+            }
+        }
+
+        .row {
+            padding: 0px;
+
+            .col-sm-3 {
+                width: 100%;
+                margin-top: 5%;
+                ;
+            }
+        }
+
+    }
+
+    /* ..........custom-container-1 end........... */
+    /*........container-2......*/
+    .body-cotainer-2 {
+        padding: 0px;
+        text-align: center;
+        width: 100%;
+
+        .row {
+            width: 97%;
+            padding-left: 15%;
+
+
+
+            div {
+                padding: 0px;
+                margin: 0px auto;
+
+                img {
+                    width: 80%;
+                    margin-top: 30px;
+                }
+
+                h2 {
+                    margin-top: 30px;
+                }
+
+                h3 {
+                    padding: 0px 10px;
+                }
+            }
+
+            .col-sm-6 h3:last-child {
+                padding: 0px 20px;
+            }
+        }
+    }
+
+    /*........container-2 end......*/
+    /*........container-3..........*/
+    .body-container-3 {
+        padding-top: 0%;
+        margin-bottom: 20px;
+
+        .container {
+            .row {
+                .col-sm-4 {
+                    margin-top: 30px;
+                    margin-left: 10%;
+                    width: 85%;
+                }
+            }
+        }
+
+        h2 {
+            padding: 0px;
+            margin-top: 25px;
+            font-size: 15px;
+        }
+
+        h3 {
+            padding: 0px;
+            margin: 15px;
+            font-size: 20px;
+        }
+
+        .img-container {
+            margin: 6% 0% 2% 0%;
+            padding: 0px;
+            position: relative;
+            width: 100%;
+            height: 420px;
+
+            div {
+                width: 100%;
+                position: absolute;
+                top: 83%;
+            }
+        }
+
+        .custom-container3-1 .row .col-sm-3 .row {
+            text-align: center;
+            margin: 10px;
+
+            img {
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    /*........container-3 end......*/
+    /*........container-4.............*/
+    .body-container-4 {
+        background: url('../images/slider-bg2.jpg') no-repeat -80px 0px /150%;
+        height: 200px;
+
+        .jumbotron {
+            margin: 0px;
+            padding: 40px 10px;
+            height: 200px;
+
+            h2 {
+                font-size: 25px;
+                line-height: 30px;
+            }
+        }
+
+
+    }
+
+    /*........container-4 end......*/
+    /*........container-5 ..........*/
+    .body-container-5 {
+        .custom-a {
+            ul {
+                padding: 0px;
+            }
+
+            a {
+                margin: 2px;
+                padding: 8px 5px;
+                font-size: 10px;
+            }
+        }
+
+        .img1 {
+            background: url(../images/case6.jpg) no-repeat 0px 0px /100%;
+
+        }
+
+        .img2 {
+            background: url(../images/case3.jpg) no-repeat 0px 0px /100%;
+        }
+
+        .img3 {
+            background: url(../images/case2.jpg) no-repeat 0px 0px /100%;
+        }
+
+        .row div {
+            margin-bottom: 20px;
+        }
+    }
+
+    /*........container-5 end......*/
+    /*........container-6 .........*/
+    .body-container-6 {
+        padding: 30px;
+        background: url('../images/slider-bg.jpg') no-repeat 0px 0px/250%;
+
+        h2 {
+            font-size: 15px;
+            padding: 0px;
+            margin: 1px;
+        }
+
+        h3 {
+            font-size: 15px;
+            padding: 0px;
+            margin: 10px;
+        }
+
+        .F-box {
+            width: 85%;
+            margin-top: 20px;
+
+            p {
+                padding: 1px;
+                font-size: 12px;
+            }
+
+            .row {
+                margin-top: 10px;
+
+                img {
+                    width: 60px;
+                }
+
+                .col-sm-11 {
+                    padding: 0px;
+                }
+
+                div {
+                    text-align: center;
+                }
+            }
+        }
+
+    }
+
+    /*........container-6 end.........*/
+    /*........container-7..........*/
+    /*........container-7 end......*/
+    /*........container-8 .........*/
+    .body-contaoner-8 {
+        .row {
+            .col-sm-4 {
+                padding: 0px 10%;
+                margin-top: 30px;
+            }
+        }
+    }
+
+    /*........container-8 end......*/
+    /*........container-9..........*/
+    .body-container-9 {
+        padding: 0px 15%;
+        width: 100%;
+    }
+
+    /*........container-9 end......*/
+    /* ..........body end........... */
+    .footer {
+        padding: 10% 5%;
+        padding-bottom: 5%;
+
+        .row {
+            .col-sm-3 {
+                margin-top: 20px;
+            }
+
+            .custom-col-4 {
+                text-align: center;
+
+                img {
+                    width: 20%;
+                    margin-bottom: 20px;
+                }
+
+            }
+        }
+
+        .footer-bottom {
+            text-align: center;
+            margin-top: 20px;
+
+            a {
+                margin: 0px;
+                padding-right: 20px;
+            }
+
+            div {
+                float: none;
+                margin-top: 10px;
+            }
+        }
+    }
+
+    /*..........footer...........*/
+    /*..........body end...........*/
+}

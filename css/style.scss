@@ -1,0 +1,864 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.eot');
+    src: url('../fontsPoppins-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fontsPoppins-Regular.woff2') format('woff2'),
+        url('../fontsPoppins-Regular.woff') format('woff'),
+        url('../fontsPoppins-Regular.ttf') format('truetype'),
+        url('../fontsPoppins-Regular.svg#Poppins-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*..........root.......*/
+$C-W: #fff;
+$C-B: #000;
+$C-LB: #0000003c;
+$C-LB1: #000000b5;
+$C-LB2: #00000070;
+$C-O: #ff3c00;
+$C-BgB: #f4f7fc;
+$font: 15px;
+
+/*..........root end.......*/
+body {
+    font-family: 'Poppins';
+}
+
+.fclear {
+    clear: both;
+}
+
+.custom-container {
+    width: 1380px;
+    padding: 0px;
+}
+
+/*..........Head.......*/
+.custom-head {
+    background: url(../images/bg-fl.jpg) no-repeat -203px 0px / 131%;
+    height: 750px;
+
+    .navbar {
+        margin: 3% 20px;
+        padding: 0px 30px 0px 70px;
+    }
+
+    .navbar-nav li a {
+        color: $C-W;
+        font-size: $font+3;
+
+        &:hover {
+            background-color: transparent;
+            color: $C-O;
+        }
+
+        &:active {
+            background-color: transparent;
+        }
+    }
+
+    .jumbotron {
+        background-color: transparent;
+        text-align: center;
+        color: $C-W;
+        padding: 0px 20%;
+        margin-top: 18%;
+
+        h1 {
+            font-weight: bolder;
+            text-transform: capitalize;
+            line-height: 85px;
+        }
+
+        button {
+            background-color: $C-W;
+            color: $C-O;
+            font-size: $font+3;
+            border: 1px solid $C-O;
+            padding: 10px 25px;
+            font-weight: 500;
+            margin-right: 25px;
+            margin-top: 10px;
+            border-radius: 3px;
+            transition: 1s;
+
+            &:hover {
+                background-color: $C-O;
+                color: $C-W;
+            }
+        }
+    }
+}
+
+/*..........Head end.......*/
+/*..........body...........*/
+/*........container-1......*/
+.line {
+    background-color: $C-O;
+    border-radius: 0px 0px 20px 20px;
+    width: 50px;
+    height: 5px;
+}
+
+.custom-container-1 {
+    padding-bottom: 70px;
+
+    .jumbotron {
+        background-color: transparent;
+        text-align: center;
+
+        h2 {
+            font-size: $font+30px;
+            font-weight: bolder;
+            padding: 0px 170px;
+            line-height: 70px;
+        }
+
+        .line-1 {
+            margin: 0px auto;
+        }
+    }
+
+    .row {
+        text-align: center;
+        margin: 0px auto;
+        padding-left: 30px;
+
+        .col-sm-1 {
+            width: 0px;
+        }
+
+        .col-sm-3 {
+            box-shadow: 0px 0px 30px $C-LB;
+            border-radius: 2px;
+            padding: 30px 30px;
+            width: 30%;
+
+            img {
+                width: 100px;
+            }
+
+            h3 {
+                font-weight: bold;
+            }
+
+            p {
+                color: $C-LB2;
+                font-weight: bolder;
+            }
+        }
+    }
+}
+
+/*........container-1 end......*/
+/*........container-2......*/
+.body-cotainer-2 {
+    background: $C-BgB;
+    padding: 50px 80px;
+    width: 100%;
+
+    .row {
+        margin-top: 30px;
+
+        div {
+            img {
+                width: 95%;
+            }
+
+            h2 {
+                color: $C-O;
+                font-weight: bolder;
+                font-size: $font;
+                text-transform: uppercase;
+                margin: 0px;
+            }
+
+            h3 {
+                font-weight: bolder;
+                padding-right: 345px;
+                margin: 0px;
+                text-transform: capitalize;
+                line-height: 55px;
+                font-size: $font+25;
+            }
+
+            h3 {
+                font-weight: bolder;
+                padding-right: 270px;
+                text-transform: capitalize;
+                line-height: 55px;
+                margin-bottom: 20px;
+                font-size: $font+25;
+
+                span {
+                    color: $C-O;
+                }
+            }
+
+            .img1 {
+                border-radius: 50%;
+                width: 80px;
+            }
+
+            .col-sm-5 {
+                padding: 0px;
+            }
+
+            div {
+                p:first-child {
+                    color: $C-LB1;
+                    font-size: $font+5;
+                    font-weight: 600;
+                    line-height: 35px;
+                    margin: 20px 0px;
+                }
+
+                p {
+                    color: $C-LB2;
+                    line-height: 25px;
+                    font-weight: 600;
+                }
+
+                h5 {
+                    color: $C-B;
+                    font-weight: bolder;
+                    font-size: $font+5px;
+                }
+            }
+        }
+    }
+}
+
+/*........container-2 end......*/
+/*........container-3..........*/
+.body-container-3 {
+    background: url(../images/slider-bg2.jpg) no-repeat 0px 0px /100%;
+    text-align: center;
+    padding-top: 80px;
+
+    h2 {
+        color: $C-O;
+        font-weight: bolder;
+        font-size: $font;
+        text-transform: uppercase;
+    }
+
+    h3 {
+        font-weight: bolder;
+        color: $C-W;
+        text-transform: capitalize;
+        font-size: $font+35;
+    }
+
+    .line {
+        margin: 0px auto;
+    }
+
+    .img-container {
+        width: 340px;
+        height: 420px;
+        text-align: left;
+        margin: 90px 30px 10px 0px;
+        border-radius: 0px 0px 5px 0px;
+        float: left;
+        position: relative;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+        div {
+            background: $C-LB1;
+            border-radius: 0px 0px 5px 0px;
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
+            z-index: 2;
+
+            img {
+                width: 70px;
+            }
+
+            h4 {
+                color: $C-W;
+                text-transform: capitalize;
+                font-weight: bolder;
+                font-size: $font+5;
+            }
+        }
+
+        h4 {
+            display: inline-block;
+            color: $C-W;
+        }
+    }
+
+    button {
+        background: $C-O;
+        color: $C-W;
+        padding: 10px 30px;
+        font-size: $font+5;
+        border: 0px;
+        border-radius: 5px;
+        margin: 50px 0px;
+        transition: 1s;
+
+        &:hover {
+            border: 1px solid $C-O;
+            background: $C-LB1;
+            color: $C-O;
+        }
+    }
+
+    .custom-container3-1 {
+        border-top: 1px solid $C-LB2;
+        padding: 70px 0px;
+
+        .row {
+            text-align: left;
+            margin: 0px;
+            padding: 0px;
+
+            .col-sm-3 {
+
+                .row {
+                    margin: 0px;
+                    padding: 0px;
+
+                    .col-sm-2 {
+                        font-weight: bolder;
+                        padding: 0px;
+
+                        img {
+                            width: 60px;
+                            padding-top: 10px;
+                        }
+                    }
+
+                    .col-sm-9 {
+                        font-weight: bolder;
+                        padding: 0px;
+                        padding-left: 30px;
+
+                        & p:first-child {
+                            font-size: $font+20;
+                            margin: 0px;
+                        }
+
+                        & p:last-child {
+                            font-size: $font;
+                            color: $C-LB1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*........container-3 end......*/
+/*........container-4..........*/
+.body-container-4 {
+    background: url('../images/slider-bg2.jpg') no-repeat 0px 0px /100%;
+
+    .jumbotron {
+        background: #ff531f66;
+        text-align: center;
+        margin: 0px;
+        padding: 90px 170px;
+        border-radius: 0px;
+
+        h2 {
+            font-weight: bolder;
+            font-size: $font+35;
+            line-height: 80px;
+            text-transform: capitalize;
+            color: $C-W;
+        }
+    }
+
+
+}
+
+/*........container-4 end......*/
+/*........container-5 .........*/
+.body-container-5 {
+    text-align: center;
+    padding-top: 50px;
+
+    h2 {
+        color: $C-O;
+        font-weight: bolder;
+        font-size: $font;
+        text-transform: uppercase;
+    }
+
+    h3 {
+        font-weight: bolder;
+        color: $C-B;
+        text-transform: capitalize;
+        font-size: $font+35;
+        margin-bottom: 60px;
+    }
+
+    .custom-a {
+        margin-bottom: 60px;
+
+        ul li {
+            display: inline;
+        }
+
+        a {
+            color: $C-O;
+            text-decoration: none;
+            text-transform: capitalize;
+            font-weight: bolder;
+            border: 2px dashed $C-O;
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: $font;
+            transition: 1s;
+
+            &:hover {
+                background: $C-O;
+                color: $C-W;
+            }
+        }
+    }
+
+    .row {
+        margin: 20px auto;
+
+        div {
+            height: 480px;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+/*........container-5 end......*/
+/*........container-6 .........*/
+.body-container-6 {
+    background: url('../images/slider-bg.jpg') no-repeat 0px /100%;
+    height: 640px;
+    margin-top: 100px;
+    text-align: center;
+    padding: 60px 45px 75px 90px;
+
+    h2 {
+        color: $C-W;
+        font-weight: bolder;
+        font-size: $font;
+        text-transform: uppercase;
+    }
+
+    h3 {
+        font-weight: bolder;
+        color: $C-W;
+        text-transform: capitalize;
+        font-size: $font+35;
+        margin-bottom: 60px;
+    }
+
+    .F-box {
+        color: white;
+        float: left;
+        width: 45%;
+        margin: 0px auto;
+        margin-left: 30px;
+
+        p {
+            border: 1px solid $C-W;
+            font-size: $font;
+            padding: 30px;
+        }
+
+        h4 {
+            text-transform: capitalize;
+            font-size: $font+5px;
+            font-weight: bolder;
+        }
+
+        h5 {
+            text-transform: capitalize;
+            font-size: $font;
+            font-weight: bolder;
+            color: $C-O;
+        }
+
+        .row {
+            text-align: left;
+            margin: 0px;
+            margin-top: 50px;
+
+            img {
+                width: 80px;
+                border-radius: 50%;
+            }
+
+            div {
+                padding: 0px;
+            }
+
+            .col-sm-11 {
+                padding-left: 9%;
+            }
+        }
+
+    }
+}
+
+/*........container-6 end......*/
+/*........container-7 .........*/
+.body-container-7 {
+    padding-top: 70px;
+    margin-bottom: 80px;
+
+    .row {
+        .col-sm-4 {
+            h2 {
+                color: $C-O;
+                font-weight: bolder;
+                font-size: $font+5;
+                text-transform: uppercase;
+            }
+
+            h3 {
+                font-weight: bolder;
+                color: $C-B;
+                text-transform: capitalize;
+                font-size: $font+15px;
+            }
+        }
+
+        .col-sm-8 {
+            p {
+                margin: 20px 0px;
+                color: $C-LB2;
+                font-size: $font;
+                font-weight: bolder;
+            }
+        }
+    }
+
+    .custom-row {
+        margin-top: 50px;
+
+        .col-sm-4 {
+            height: 450px;
+            margin-top: 30px;
+
+            img {
+                width: 100%;
+                position: relative;
+                height: 90%;
+            }
+
+            div {
+                text-align: center;
+                position: absolute;
+                background: $C-W;
+                bottom: 0px;
+                padding: 10px 0px;
+                z-index: 2;
+                left: 13%;
+                box-shadow: 0px 0px 5px $C-LB;
+                border-radius: 5px;
+                width: 75%;
+
+                h4 {
+                    color: $C-B;
+                    font-weight: bolder;
+                    font-size: $font+3;
+                    text-transform: capitalize;
+                }
+
+                h5 {
+                    color: $C-LB2;
+                    font-weight: bolder;
+                    font-size: $font;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
+
+/*........container-7 end......*/
+/*........container-8..........*/
+.body-contaoner-8 {
+    text-align: center;
+
+    h2 {
+        color: $C-O;
+        font-weight: bolder;
+        font-size: $font;
+        text-transform: uppercase;
+    }
+
+    h3 {
+        font-weight: bolder;
+        color: $C-B;
+        text-transform: capitalize;
+        font-size: $font+35;
+        margin-bottom: 60px;
+
+        span {
+            color: $C-O;
+        }
+    }
+
+    .row {
+        .col-sm-4 {
+            text-align: left;
+
+            .custom-col {
+                box-shadow: 0px 0px 5px $C-LB;
+                border-radius: 5px;
+                position: relative;
+
+                img {
+                    width: 100%;
+                    height: 250px;
+                }
+
+                .box-1 {
+                    position: absolute;
+                    top: 10px;
+                    left: 10px;
+                    z-index: 2;
+
+                    h3 {
+                        color: $C-W;
+                        font-size: $font;
+                        background: $C-O;
+                        display: inline;
+                        padding: 3px 14px;
+                        border-radius: 5px;
+                    }
+                }
+
+                .box-2 {
+                    padding: 30px 10px;
+
+                    p {
+                        color: $C-LB2;
+                        font-size: $font+2;
+                        line-height: 24px;
+                        text-transform: capitalize;
+                    }
+
+                    h3 {
+                        color: $C-B;
+                        font-size: $font+8;
+                        line-height: 33px;
+                        margin: 10px 0px;
+                    }
+
+                    a {
+                        color: $C-O;
+                        font-size: $font+2;
+
+                        &:hover {
+                            text-decoration: none;
+                            color: rgba(0, 0, 255, 0.5);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*........container-8 end......*/
+/*........container-9 .......*/
+.body-container-9 {
+    .row {
+
+        box-shadow: 0px 0px 5px $C-LB;
+        border-radius: 5px;
+        margin-top: 150px;
+
+        div {
+            padding: 0px;
+
+            img {
+                width: 100%;
+            }
+
+            h2 {
+                color: $C-LB1;
+                padding-top: 30px;
+                font-size: $font+8;
+                font-weight: bolder;
+            }
+
+            h3 {
+                color: $C-B;
+                font-weight: bolder;
+                font-size: $font+20px;
+            }
+        }
+
+        .col-sm-7 {
+            padding: 0px 30px;
+        }
+    }
+}
+
+/*........container-9 end......*/
+/*..........body end...........*/
+/*..........footer...........*/
+.footer {
+    background: #252628;
+    color: $C-W;
+    margin-top: 80px;
+    padding-top: 70px;
+
+    i {
+        border: 1px solid $C-W;
+        padding: 5px 10px;
+        font-size: $font+5;
+        border-radius: 5px;
+        margin: 20px 3px;
+    }
+
+    p {
+        margin: 30px 0px;
+        color: #ffffffab;
+        text-transform: capitalize;
+    }
+
+    a {
+        color: #ffffffab;
+        font-size: $font+2;
+
+        &:hover {
+            color: rgba(255, 68, 0, 0.278);
+            text-decoration: none;
+        }
+    }
+
+    h2 {
+        margin: 0px;
+        font-size: $font+5px;
+        font-weight: bolder;
+        margin-bottom: 35px;
+
+    }
+
+    .custom-col-2 {
+        a {
+            display: block;
+            margin-bottom: 14px;
+            text-transform: capitalize;
+        }
+    }
+
+    .custom-col-3 {
+        p {
+            color: $C-W;
+            font-weight: bolder;
+            margin: 0px;
+            margin-bottom: 14px;
+            padding-right: 48px;
+
+            a {
+                font-weight: normal;
+            }
+        }
+    }
+
+    .custom-col-4 {
+        .row {
+            margin-bottom: 20px;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        h3 {
+            font-size: $font+2;
+            font-weight: bolder;
+            margin: 0px;
+        }
+
+        p {
+            margin: 10px 0px;
+            font-size: 10px;
+            font-weight: bolder;
+            color: #ffffffab;
+        }
+    }
+
+    .footer-bottom {
+        border-top: 1px solid #ffffff3d;
+        margin-top: 50px;
+        padding: 20px;
+
+        a {
+            display: inline;
+            margin: 10px;
+            font-size: $font;
+        }
+
+        div {
+            float: right;
+        }
+    }
+}
+
+.custom-modal {
+    h4 {
+        text-transform: capitalize;
+        font-weight: bolder;
+        color: $C-O;
+    }
+
+    .modal-header {
+        background: $C-BgB;
+    }
+}
+
+.custom-carousel {
+    .container {
+        width: 70%;
+    }
+
+    .carousel-inner {
+        width: 100%;
+        height: 400px;
+    }
+
+    .iteam {
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .carousel-control.left,
+    .carousel-control.right {
+        margin-top: 50%;
+        background: none;
+        color: $C-LB2;
+    }
+
+    h2 {
+        color: $C-W;
+        font-weight: bolder;
+    }
+}
+
+
+
+/*..........footer end...........*/
